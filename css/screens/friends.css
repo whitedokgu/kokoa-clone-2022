@@ -1,0 +1,19 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__bookmark,
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-screen__bookmark-header,
+.friends-screen__channel-header {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
